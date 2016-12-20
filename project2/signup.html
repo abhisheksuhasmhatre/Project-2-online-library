@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>First Page</title>
+	<link href= "css/style.css" rel="stylesheet" type="text/css"  media = "screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<ul class="top">
+		<li class="block"><a class="active" href="signup.html">Sign Up</a></li>
+		<li class="blockright"><a href="index.html">Login In</a></li>
+	</ul>
+	<figure>
+		<img class = "position" src="media/download.png" width="149" height="339" alt="logo">
+	</figure>
+	<div id = "evenlist">
+		<button onclick="document.getElementById('cl').style.display='block'"  class = "sublist">Sign Up using Facebook (Press here to Open)</button>
+		<div id="cl" class="modal">
+  			<div class="imgcontainer">
+  				<span onclick="document.getElementById('cl').style.display='none'" class="close" title="Close Modal">&times;</span>
+			</div>
+    		<input class = "name" type="text" placeholder="Enter Username" name="uname" required>
+    		<div>
+    			<input class = "name" type="password" placeholder="Enter Password" name="psw" required>
+    		</div>
+    		<form action = "https://www.facebook.com/">
+    			<input type = "submit" class = "enter" value = "Login"/>
+			</form>
+			<button type="button" onclick="document.getElementById('cl').style.display='none'" class="cancel">Cancel</button>
+		</div>
+		<button onclick="document.getElementById('cla').style.display='block'"  class = "sublist">Sign Up using Gmail (Press here to Open)</button>
+		<div id="cla" class="mode">
+  			<div class="imgcontainer">
+  				<span onclick="document.getElementById('cla').style.display='none'" class="close" title="Close Modal">&times;</span>
+			</div>
+    		<input class = "name" type="text" placeholder="Enter Username" name="uname" required>
+    		<div>
+    			<input class = "name" type="password" placeholder="Enter Password" name="psw" required>
+    		</div>
+    		<form action = "https://mail.google.com">
+    			<input type = "submit" class = "enter" value = "Login"/>
+			</form>
+			<button type="button" onclick="document.getElementById('cla').style.display='none'" class="cancel">Cancel</button>
+		</div>
+		<button class = "sublist">Make an Account</button>
+			<label><b>Name</b></label>
+			<div>
+    			<input class = "name" type="text" placeholder="Enter Name">
+    			<input class = "name" type="text" placeholder="Enter Surname" name="uname" required>
+    		</div>
+    		<form>
+  				<input type="radio" checked="checked" value="male" name="gender"> Male
+				<input type="radio" value="female" name="gender"> Female<br>
+			</form>
+			<div>
+    			<input class = "name" type="text" placeholder="Enter Age">
+    		</div>
+    		<div>
+    			<input class = "name" type="text" placeholder="Enter Phone Number">
+    		</div>
+    		<div>
+    			<input class = "name" type="text" placeholder="Enter Address">
+    		</div>
+    		<div>
+    			<input class = "name" type="text" placeholder="Enter Address">
+    		</div>
+    		<div>
+    			<input class = "name" type="text" placeholder="Enter E-mail ID">
+    		</div>
+    		<div>
+    			<input class = "name" type="password" placeholder="Enter Password" name="psw" required>
+    		</div>
+    		<div>
+    			<input class = "name" type="password" placeholder="Re-Enter Password" name="psw" required>
+    		</div>
+    		<form action = "index.html">
+    			<input type = "submit" class = "enter" value = "SignUp"/>
+			</form>
+			<button type="button" onclick="document.getElementById('cla').style.display='none'" class="cancel">Cancel</button>
+<script>
+var modal = document.getElementById('cl');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var mode = document.getElementById('cla');
+window.onclick = function(event) {
+    if (event.target == mode) {
+        mode.style.display = "none";
+    }
+}
+</script>
+	</div>
+	<ul>
+		<li class="back"><a class = "backcolor" href="index.html">Back</a></li>
+	</ul>
+</body>
+</html>
