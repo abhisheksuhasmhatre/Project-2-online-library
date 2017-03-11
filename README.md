@@ -26,6 +26,6 @@ from a school going kid to an elderly people. This website consists of seven dif
 Home Page, eventlist Page and Search Page,  Forums Page, Podcast Page, Sign Up Page Apart from these pages
 there is another page that links all the other websites visible to a single landing page.
 
-## reference: 
+## Reference: 
 - https://www.w3schools.com
 - https://threejs.org
