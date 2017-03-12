@@ -19,6 +19,7 @@ I have created a  website with the help of
 - HTML5, 
 - CSS3
 - JavaScript framework (three.JS)
+- Illustrator to make the logos
 
 as the front login page.I got the idea of making this site by looking at different libraries but a few of them having any online accounts,
 but most of them need their memberships. So i came up with a plan to make a library that could be used by anyone
